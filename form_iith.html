@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<script type="text/javascript" src="calculator.js"></script>
+	<link rel="stylesheet" type="text/css" href="form_iith.css">
+</head>
+<body>
+<form> 
+<p> <b>Name</b><input id="username" type="text" name="" onmouseleave="return checkname()" required><span id="error_name" ></span></p>
+<p> <b>Phone number</b><input id="phone_num" type="text" name="" onmouseleave="return checknumber()" maxlength="10" required><span id="error_num"></span></p>
+<p> <b>E-mail</b><input id="email" type="email" name="" onmouseleave="return checkemail()" required><span id="gmail"></span></p>
+<!-- <in id="form_submit" type="submit" name="" value="Submit" onclick="submit1()" > -->
+</form>
+
+<button id="form_submit" value="Submit" onclick="alert('form filling successful')" disabled>Submit</button>
+<button onclick="submit1()">enable submit button</button><span id="warning"></span>
+</body>
+</html>

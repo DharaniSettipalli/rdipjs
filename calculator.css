@@ -1,0 +1,15 @@
+input[type=text] {
+	background: #708090;
+	color:#b8ffb8;
+	width:100%;
+	height:70px;
+	font-size: 40px;
+}
+input[type=button]{
+	background: #DB7093;
+	color:#b8ffb8;
+	width:150px;
+	height:70px;
+	font-size: 40px;
+}
+/*#b8ffb8*/
